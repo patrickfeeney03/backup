@@ -1,0 +1,9 @@
+If game is won and then draw, the board wont print to PuTTY
+If game is draw, the board does print....
+
+After a game has been drawn, the board does not print at all...interesting.
+
+
+The probably only occurs after doing a normal win and then a draw. The moves variable is not reset to 0 when a Win happens, only when a draw happens.
+
+It just seems that sometimes because of QOS0, the message was being lost... I am trying QOS2
