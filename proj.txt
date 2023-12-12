@@ -1,0 +1,14 @@
+[ ] disable interaction while waiting for reset? ******************
+[ ] If the message is longer than a single char, send back correct
+
+[X] Why is it printing the board twice after a draw? Does it print always at draw and win? One of them dont work properly i think
+[X] Board not printing after last play.
+[X] print riight player to screen. currently only printing player 1
+[X] print current turns to the console in adafruit
+[x] When Draw the board will print but when Win the board wont print probably because the Moves variable is not 0 yet.
+[X] allows draws
+[X] check whos turn it is
+[x]Fix Board not printing some times
+[X] use the 'moves' variable to control the printing to the screen
+[X] use another variable 
+[x]SET TIMEOUT TO SOMETHING BIG WITH ONLY ONE YIELD - Done, seems to work alright.
